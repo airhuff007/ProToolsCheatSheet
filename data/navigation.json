@@ -1,0 +1,111 @@
+{
+  "sections": [
+    {
+      "id": "shortcuts",
+      "label": "Shortcuts",
+      "href": "/shortcuts",
+      "items": [
+        { "label": "Universal", "href": "/shortcuts/universal" },
+        { "label": "Editing", "href": "/shortcuts/editing" },
+        { "label": "Transport & Playback", "href": "/shortcuts/transport" },
+        { "label": "Clips & Regions", "href": "/shortcuts/clips" },
+        { "label": "Mixing & Routing", "href": "/shortcuts/mixing" },
+        { "label": "Elastic Audio", "href": "/shortcuts/elastic-audio" },
+        { "label": "MIDI", "href": "/shortcuts/midi" },
+        { "label": "Windows", "href": "/shortcuts/windows" },
+        { "label": "Automation", "href": "/shortcuts/automation" }
+      ]
+    },
+    {
+      "id": "workflows",
+      "label": "Workflows",
+      "href": "/workflows",
+      "items": [
+        {
+          "label": "Music Production",
+          "group": true,
+          "items": [
+            { "label": "Vocal Recording", "href": "/workflows/vocal-recording" },
+            { "label": "Vocal Mixing", "href": "/workflows/vocal-mixing" },
+            { "label": "Beat Production", "href": "/workflows/beat-production" },
+            { "label": "Drum Editing", "href": "/workflows/drum-editing" },
+            { "label": "Mastering", "href": "/workflows/mastering" }
+          ]
+        },
+        {
+          "label": "Post Production",
+          "group": true,
+          "items": [
+            { "label": "ADR", "href": "/workflows/adr" },
+            { "label": "Dialogue Editing", "href": "/workflows/dialogue-editing" },
+            { "label": "Foley", "href": "/workflows/foley" },
+            { "label": "Sound Design", "href": "/workflows/sound-design" },
+            { "label": "Music for Picture", "href": "/workflows/music-for-picture" },
+            { "label": "Film Mixing", "href": "/workflows/film-mixing" },
+            { "label": "Delivery & Stems", "href": "/workflows/delivery-and-stems" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "templates",
+      "label": "Session Templates",
+      "href": "/templates",
+      "items": [
+        {
+          "label": "Music Production",
+          "group": true,
+          "items": [
+            { "label": "Vocal Recording", "href": "/templates/vocal-recording-template" },
+            { "label": "Beat Production", "href": "/templates/beat-production-template" },
+            { "label": "Full Mix", "href": "/templates/full-mix-template" }
+          ]
+        },
+        {
+          "label": "Post Production",
+          "group": true,
+          "items": [
+            { "label": "Dialogue Edit", "href": "/templates/dialogue-edit-template" },
+            { "label": "ADR", "href": "/templates/adr-template" },
+            { "label": "Foley", "href": "/templates/foley-template" },
+            { "label": "Film Mix", "href": "/templates/film-mix-template" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "knowledge",
+      "label": "Knowledge Base",
+      "href": "/knowledge",
+      "items": [
+        { "label": "Beat Detective", "href": "/knowledge/beat-detective" },
+        { "label": "Elastic Audio", "href": "/knowledge/elastic-audio" },
+        { "label": "Strip Silence", "href": "/knowledge/strip-silence" },
+        { "label": "Clip Gain & Automation", "href": "/knowledge/clip-gain" },
+        { "label": "Playlist Management", "href": "/knowledge/playlist-management" },
+        { "label": "Bus Routing", "href": "/knowledge/bus-routing" },
+        { "label": "Quantization", "href": "/knowledge/quantization" },
+        { "label": "Diegetic vs. Non-Diegetic", "href": "/knowledge/diegetic-vs-nondiegetic" },
+        { "label": "Film Delivery Standards", "href": "/knowledge/film-delivery-standards" },
+        { "label": "Stem Organization", "href": "/knowledge/stem-organization" },
+        { "label": "Music Supervision", "href": "/knowledge/music-supervision" }
+      ]
+    },
+    {
+      "id": "how-do-i",
+      "label": "How Do I?",
+      "href": "/how-do-i"
+    },
+    {
+      "id": "best-practices",
+      "label": "Best Practices",
+      "href": "/best-practices",
+      "items": [
+        { "label": "Session Hygiene", "href": "/best-practices/session-hygiene" },
+        { "label": "Naming Conventions", "href": "/best-practices/naming-conventions" },
+        { "label": "Backup Procedures", "href": "/best-practices/backup-procedures" },
+        { "label": "Delivery Standards", "href": "/best-practices/delivery-standards" }
+      ]
+    }
+  ]
+}

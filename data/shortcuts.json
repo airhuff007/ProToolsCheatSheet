@@ -1,0 +1,104 @@
+[
+  {
+    "id": "cmd-e-separate-clip",
+    "action": "Separate Clip at Playhead",
+    "mac": "Cmd+E",
+    "windows": "Ctrl+E",
+    "description": "Separates the selected clip or clips at the current playhead position.",
+    "category": "editing",
+    "domain": "both",
+    "relatedWorkflows": ["drum-editing", "dialogue-editing"],
+    "tags": ["clip", "region", "separate", "cut"]
+  },
+  {
+    "id": "cmd-d-duplicate",
+    "action": "Duplicate Clip",
+    "mac": "Cmd+D",
+    "windows": "Ctrl+D",
+    "description": "Duplicates the selected clip and places the copy immediately after the original.",
+    "category": "editing",
+    "domain": "both",
+    "tags": ["clip", "duplicate", "copy"]
+  },
+  {
+    "id": "cmd-space-play",
+    "action": "Play / Stop",
+    "mac": "Spacebar",
+    "windows": "Spacebar",
+    "description": "Toggles playback at the current playhead position.",
+    "category": "transport",
+    "domain": "both",
+    "tags": ["transport", "play", "stop", "playback"]
+  },
+  {
+    "id": "cmd-period-stop",
+    "action": "Stop",
+    "mac": "Cmd+.",
+    "windows": "Ctrl+.",
+    "description": "Stops playback and returns the playhead to the pre-roll position.",
+    "category": "transport",
+    "domain": "both",
+    "tags": ["transport", "stop"]
+  },
+  {
+    "id": "f1-pointer-tool",
+    "action": "Pointer Tool",
+    "mac": "F1",
+    "windows": "F1",
+    "description": "Selects the Pointer (Arrow) tool for selecting and moving clips.",
+    "category": "editing",
+    "domain": "both",
+    "tags": ["tool", "pointer", "arrow", "select"]
+  },
+  {
+    "id": "f2-pencil-tool",
+    "action": "Pencil Tool",
+    "mac": "F2",
+    "windows": "F2",
+    "description": "Selects the Pencil tool for drawing MIDI notes or automation.",
+    "category": "editing",
+    "domain": "both",
+    "tags": ["tool", "pencil", "draw", "midi", "automation"]
+  },
+  {
+    "id": "f3-trim-tool",
+    "action": "Trim Tool",
+    "mac": "F3",
+    "windows": "F3",
+    "description": "Selects the Trim tool for trimming the start or end of clips.",
+    "category": "editing",
+    "domain": "both",
+    "tags": ["tool", "trim", "clip"]
+  },
+  {
+    "id": "f4-selector-tool",
+    "action": "Selector Tool",
+    "mac": "F4",
+    "windows": "F4",
+    "description": "Selects the Selector tool for making time-range selections.",
+    "category": "editing",
+    "domain": "both",
+    "tags": ["tool", "selector", "selection", "range"]
+  },
+  {
+    "id": "f5-scrubber-tool",
+    "action": "Scrubber Tool",
+    "mac": "F5",
+    "windows": "F5",
+    "description": "Selects the Scrubber tool for scrubbing audio.",
+    "category": "editing",
+    "domain": "both",
+    "tags": ["tool", "scrubber", "scrub"]
+  },
+  {
+    "id": "cmd-shift-e-heal-separation",
+    "action": "Heal Separation",
+    "mac": "Cmd+Shift+E",
+    "windows": "Ctrl+Shift+E",
+    "description": "Heals (merges) a separation between two adjacent clips from the same parent clip.",
+    "category": "editing",
+    "domain": "both",
+    "relatedWorkflows": ["drum-editing", "dialogue-editing"],
+    "tags": ["clip", "heal", "merge", "separation"]
+  }
+]
