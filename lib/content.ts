@@ -1,30 +1,19 @@
-// Markdown content parsing utilities
-// Uses gray-matter for frontmatter extraction
-// TODO: Install gray-matter — `npm install gray-matter`
-
 import fs from "fs";
 import path from "path";
+import matter from "gray-matter";
 
 const CONTENT_ROOT = path.join(process.cwd(), "content");
 
-export function getContentDir(section: string): string {
-  return path.join(CONTENT_ROOT, section);
-}
-
 export function getMarkdownSlugs(section: string): string[] {
-  const dir = getContentDir(section);
+  const dir = path.join(CONTENT_ROOT, section);
   if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith(".md"))
-    .map((f) => f.replace(/\.md$/, ""));
+  return fs.readdirSync(dir).filter((f) => f.endsWith(".md")).map((f) => f.replace(/\.md$/, ""));
 }
 
-// Stub — implement after installing gray-matter
-export function parseMarkdownFile(section: string, slug: string) {
-  const filePath = path.join(getContentDir(section), `${slug}.md`);
+export function getMarkdownFile(section: string, slug: string) {
+  const filePath = path.join(CONTENT_ROOT, section, `${slug}.md`);
+  if (!fs.existsSync(filePath)) return null;
   const raw = fs.readFileSync(filePath, "utf-8");
-  // const { data, content } = matter(raw);
-  // return { frontmatter: data, content };
-  return { raw };
+  const { data, content } = matter(raw);
+  return { frontmatter: data as Record<string, string>, content };
 }
